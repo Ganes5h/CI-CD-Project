@@ -1,4 +1,3 @@
-# .github/workflows/deploy.yml
 name: CI/CD Pipeline
 
 on:
@@ -43,7 +42,6 @@ jobs:
 
       # Step 3: Deploy to Netlify
       - name: Deploy to Netlify
-        run: netlify deploy --prod --dir=build
+        run: netlify deploy --prod --dir=build --site=$NETLIFY_SITE_ID
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
