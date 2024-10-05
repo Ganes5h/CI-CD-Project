@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="App">
       <h1>
-        This site is made by using Netlify , Actions from GiHub for CICD and
-        DOCKER for local container.
+        This site is made using Netlify , Actions from GitHub for CICD and
+        DOCKER, Demo to show Mr Avinash
       </h1>
-      <h2>Ganesh</h2>
+      <h2>- Ganesh Kugaji</h2>
     </div>
   );
 }
