@@ -5,7 +5,7 @@ function App() {
     <div className="App">
       <h1>
         This site is made using Netlify , Actions from GitHub for CICD and
-        DOCKER, Demo to show Mr Avinash
+        DOCKER.
       </h1>
       <h2>- Ganesh Kugaji</h2>
     </div>
